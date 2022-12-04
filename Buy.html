@@ -1,0 +1,100 @@
+<html>
+<head>
+<link rel=" icon"  type = "image/png" href="logo2.png" />
+<title> Buy Now </title>
+<style>
+body{
+	background-image: url(bg2.jpg);
+	background-size: cover;
+}
+.Trans{
+height: 460px;
+width: 500px;
+background-color:rgba(0,0,0,0.5);
+margin:0 auto;
+margin-top:40px;
+padding-top: 10px;
+padding-left: 50px;
+border-radius:15px;
+-webkit-border-radius:15px;
+-o-border-radius:15px;
+-moz-border-radius:15px;
+color:white;
+font-weight: bolder;
+box-shadow:inset 4px	4px  rgba(0,0,0,0.5); 
+font-size:18px;	
+}
+
+.Trans input[type="text"]{
+	width:450px;
+	height: 35px;
+	border:0;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.Trans input[type="submit"]{
+	width:100px;
+	height: 35px;
+	border:0;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+-moz-border-radius:5px;
+background-color: 22496b;
+font-weight:bolder;
+}
+#copyright{
+	width:100%;
+	height:100px;
+	border:none;
+	line-height:100px;
+	font-size:20px;
+	position:fixed;
+		font-family:verdana,sans-serrif, geneva;
+	bottom:0px;
+	left:0px;
+	
+	color:#e8e8e8;
+	background-color:rgba(0,0,0,0.5);
+
+}
+#copyright>.a>.Home{
+	height: 50px;
+	width: 50px;
+	float: right;
+	padding: 22px;	
+}
+</style>
+</head>
+<body>
+<div class = "Trans">
+<h2> Fill Your Details </h2>
+<form>
+	<input type= "text" placeholder= "Enter Name"><br><br>
+	<input type= "text" placeholder= "Enter Address"><br><br>
+	<input type= "text" placeholder= "Enter City"><br><br>
+		<input type= "text" placeholder= "Enter Colour"><br><br>
+		<input type= "text" placeholder= "Enter Pincode"><br><br>
+			<input type= "checkbox"> I Agree To Terms & Conditions<br><br>
+	<input type= "submit" onclick="myFunction()" value= "Place order"> </form></div><br><br>
+	<footer>
+	<div id  = "copyright">
+	&copy; 2018 HelmKINGS LTD. All rights reserved. 
+	<a href = "index.html" class = "a">
+	<img class = "Home" src = "home.png"/></a>
+
+
+	</div></footer>
+
+<script>
+function myFunction() {
+    alert("Your Order Has Been Placed. Thanks For Shopping. Your Order Will Be Confirmed Soon");
+}
+
+
+</script>
+</body>
+</html>
